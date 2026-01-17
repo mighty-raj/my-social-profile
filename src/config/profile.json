@@ -1,0 +1,49 @@
+{
+  "name": "Raja Mahesh Aravapalli",
+  "tagline": "Full Stack Developer | Tech Enthusiast",
+  "profilePictureUrl": "https://via.placeholder.com/150",
+  "about": {
+    "title": "About Me",
+    "bio": [
+      "Welcome to my profile! I'm a passionate developer with experience in building web applications. I love working with modern technologies like React, FastAPI, and cloud services.",
+      "Always eager to learn new things and take on challenging projects."
+    ]
+  },
+  "contacts": {
+    "title": "Get in Touch",
+    "items": [
+      {
+        "id": "email",
+        "label": "Email",
+        "icon": "📧",
+        "link": "mailto:your-email@example.com"
+      },
+      {
+        "id": "linkedin",
+        "label": "LinkedIn",
+        "icon": "💼",
+        "link": "https://linkedin.com/in/your-profile"
+      },
+      {
+        "id": "twitter",
+        "label": "Twitter",
+        "icon": "𝕏",
+        "link": "https://twitter.com/your-handle"
+      },
+      {
+        "id": "instagram",
+        "label": "Instagram",
+        "icon": "📸",
+        "link": "https://instagram.com/your-handle"
+      }
+    ]
+  },
+  "payMe": {
+    "title": "Support Me",
+    "description": "If you'd like to support my work, you can scan the QR code below:",
+    "qrCodeUrl": "https://via.placeholder.com/200"
+  },
+  "footer": {
+    "copyrightName": "Raja Mahesh Aravapalli"
+  }
+}

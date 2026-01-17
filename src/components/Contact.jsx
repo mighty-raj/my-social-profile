@@ -1,38 +1,12 @@
 import styles from '../styles/Contact.module.css';
+import profileConfig from '../config/profile.json';
 
 export default function Contact() {
-  const contacts = [
-    {
-      id: 'email',
-      label: 'Email',
-      icon: '📧',
-      link: 'mailto:your-email@example.com'
-    },
-    {
-      id: 'linkedin',
-      label: 'LinkedIn',
-      icon: '💼',
-      link: 'https://linkedin.com/in/your-profile'
-    },
-    {
-      id: 'twitter',
-      label: 'Twitter',
-      icon: '𝕏',
-      link: 'https://twitter.com/your-handle'
-    },
-    {
-      id: 'instagram',
-      label: 'Instagram',
-      icon: '📸',
-      link: 'https://instagram.com/your-handle'
-    }
-  ];
-
   return (
     <section className={styles.contact}>
-      <h2 className={styles.title}>Get in Touch</h2>
+      <h2 className={styles.title}>{profileConfig.contacts.title}</h2>
       <div className={styles.contactLinks}>
-        {contacts.map((contact) => (
+        {profileConfig.contacts.items.map((contact) => (
           <a
             key={contact.id}
             href={contact.link}
