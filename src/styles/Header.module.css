@@ -1,0 +1,45 @@
+.header {
+  text-align: center;
+  padding: 40px 20px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border-radius: 10px;
+  margin-bottom: 40px;
+}
+
+.profilePicture {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 4px solid white;
+  object-fit: cover;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.name {
+  font-size: 2.5em;
+  margin: 10px 0;
+  font-weight: 700;
+}
+
+.tagline {
+  font-size: 1.1em;
+  margin: 0;
+  opacity: 0.9;
+  font-weight: 300;
+}
+
+@media (max-width: 768px) {
+  .header {
+    padding: 30px 15px;
+  }
+
+  .name {
+    font-size: 2em;
+  }
+
+  .tagline {
+    font-size: 1em;
+  }
+}
