@@ -1,12 +1,13 @@
 {
   "name": "Raja Mahesh Aravapalli",
-  "tagline": "Full Stack Developer | Tech Enthusiast",
-  "profilePictureUrl": "https://via.placeholder.com/150",
+  "tagline": "Architecting Intelligent Systems @ Microsoft | AI & Data at Scale",
+  "profilePictureUrl": "https://1drv.ms/i/c/71ca469591e40384/IQCEA-SRlUbKIIBxaD4AAAAAAWWGKdGiZWUgIOaZ0RGmjd8?e=TjYPLc",
   "about": {
     "title": "About Me",
     "bio": [
-      "Welcome to my profile! I'm a passionate developer with experience in building web applications. I love working with modern technologies like React, FastAPI, and cloud services.",
-      "Always eager to learn new things and take on challenging projects."
+      "I architect intelligent systems that solve real-world problems at scale. As a Senior Software Engineer and Tech Lead at Microsoft, I design and build AI-powered solutions that process massive data volumes, drive business impact, and push the boundaries of what's possible.",
+      "My expertise spans distributed systems, machine learning infrastructure, data engineering pipelines, and cloud-native architecture. I'm passionate about transforming complex AI/Data challenges into elegant, scalable solutions while mentoring teams to deliver technical excellence.",
+      "I believe in building systems that are intelligent, resilient, and maintainable. Advocate for engineering rigor, collaborative problem-solving, and continuous innovation. Committed to driving impactful technical decisions and sharing knowledge that shapes the next generation of engineers."
     ]
   },
   "contacts": {
@@ -16,13 +17,13 @@
         "id": "email",
         "label": "Email",
         "icon": "📧",
-        "link": "mailto:your-email@example.com"
+        "link": "mailto:RajaMahesh.Aravapalli@outlook.com"
       },
       {
         "id": "linkedin",
         "label": "LinkedIn",
         "icon": "💼",
-        "link": "https://linkedin.com/in/your-profile"
+        "link": "https://www.linkedin.com/in/raja-mahesh-aravapalli/"
       },
       {
         "id": "twitter",
@@ -39,8 +40,8 @@
     ]
   },
   "payMe": {
-    "title": "Support Me",
-    "description": "If you'd like to support my work, you can scan the QR code below:",
+    "title": "Payment Info",
+    "description": "Available for consulting and collaboration opportunities.",
     "qrCodeUrl": "https://via.placeholder.com/200"
   },
   "footer": {
