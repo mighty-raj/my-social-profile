@@ -29,6 +29,9 @@ jobs:
     - name: Build
       run: npm run build
 
+    - name: Copy web.config to dist
+      run: copy web.config dist/web.config
+
     - name: Deploy to Azure App Service
       uses: azure/webapps-deploy@v3
       with:
