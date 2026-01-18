@@ -5,10 +5,13 @@ A modern, responsive React profile website built with Vite and deployed to Azure
 ## Features
 
 - ✨ **Responsive Design** - Works seamlessly on desktop, tablet, and mobile devices
-- 🎨 **Modern Styling** - CSS Modules for scoped, maintainable styles
+- 🎨 **Modern Dark Theme** - Cyberpunk-inspired design with cyan/blue accents and glowing effects
+- 🧭 **Navigation Sidebar** - Hamburger menu with smooth slide-out sidebar navigation
+- 🔗 **Anchor Links** - Quick jump to any section (About Me, Get in Touch)
 - 🚀 **Fast Performance** - Built with Vite for optimal build speed and bundle size
 - 📱 **Social Integration** - Direct links to email, LinkedIn, Twitter, and Instagram
 - 💳 **Payment QR Code** - Display a QR code for easy payment/support options
+- 📋 **Configuration-Driven** - Profile data stored in JSON config for easy updates
 - 🚀 **Automated Deployment** - GitHub Actions CI/CD to Azure App Service
 
 ## Project Structure
@@ -17,19 +20,23 @@ A modern, responsive React profile website built with Vite and deployed to Azure
 my-social-profile/
 ├── src/
 │   ├── components/
-│   │   ├── Header.jsx          # Profile picture and header
+│   │   ├── Header.jsx          # Profile header with hamburger menu
+│   │   ├── Navigation.jsx      # Navigation sidebar with anchor links
 │   │   ├── About.jsx           # About section
 │   │   ├── Contact.jsx         # Contact links
 │   │   ├── PayMe.jsx           # Payment QR code section
 │   │   └── Footer.jsx          # Footer
 │   ├── styles/
-│   │   ├── Header.module.css   # Header styles
-│   │   ├── About.module.css    # About styles
-│   │   ├── Contact.module.css  # Contact styles
-│   │   ├── PayMe.module.css    # PayMe styles
+│   │   ├── Header.module.css   # Header and menu styles
+│   │   ├── Navigation.module.css # Sidebar navigation styles
+│   │   ├── About.module.css    # About section styles
+│   │   ├── Contact.module.css  # Contact links styles
+│   │   ├── PayMe.module.css    # PayMe section styles
 │   │   └── Footer.module.css   # Footer styles
+│   ├── config/
+│   │   └── profile.json        # Profile data configuration
 │   ├── App.jsx                 # Main App component
-│   ├── App.css                 # App container styles
+│   ├── App.css                 # App layout and grid styles
 │   ├── index.css               # Global styles
 │   └── main.jsx                # React entry point
 ├── public/                      # Static assets
@@ -93,22 +100,61 @@ This creates an optimized production build in the `dist/` folder.
 npm run preview
 ```
 
-## Customization
+All profile data is stored in `src/config/profile.json`. Simply edit this file to update:
 
-### Update Profile Information
+```json
+{
+  "name": "Your Name",
+  "tagline": "Your Professional Tagline",
+  "subtitle": "Your Subtitle",
+  "profilePictureUrl": "/images/profile.jpg",
+  "about": {
+    "title": "About Me",
+    "bio": ["Bio paragraph 1", "Bio paragraph 2", "Bio paragraph 3"]
+  },
+  "contacts": {
+    "title": "Get in Touch",
+    "items": [
+      {
+        "id": "email",
+        "label": "Email",
+        "icon": "📧",
+        "link": "mailto:your-email@example.com"
+      }
+      // ... more contacts
+    ]
+  },
+  "footer": {
+    "copyrightName": "Your Name"
+  }
+}
+```
 
-Edit the components to add your actual information:
+### Navigation Sections
 
-1. **Header.jsx** - Update profile picture URL and name
-2. **Contact.jsx** - Update contact links with your actual URLs
-3. **PayMe.jsx** - Update QR code image URL
-4. **Footer.jsx** - Update copyright information
+The navigation sidebar automatically links to sections with matching IDs:
+- `#about` - Links to About Me section
+- `#contact` - Links to Get in Touch section
 
-### Update Styles
+To add new sections:
+1. Add a new anchor ID to your section: `<section id="my-section">`
+2. Add an entry to the `sections` array in `Navigation.jsx`
 
-All styling uses CSS Modules for scoped styling. Modify files in `src/styles/` to customize the appearance:
+### Customize Styles
 
-- `Header.module.css` - Header and profile section
+All styling uses CSS Modules for scoped styling. Key theme colors:
+- **Primary Accent**: `#38bdf8` (cyan blue)
+- **Bright Accent**: `#00ffff` (bright cyan)
+- **Text Color**: `#a5f3fc` (light cyan)
+- **Dark Background**: `rgba(30, 27, 75, 0.4)` (deep blue/purple)
+
+Edit files in `src/styles/` to customize the appearance:
+
+- `Header.module.css` - Header with menu button styling
+- `Navigation.module.css` - Sidebar navigation styles and animations
+- `About.module.css` - About section styles
+- `Contact.module.css` - Contact buttons and links
+- `Footer.module.css` - Footer styling and profile section
 - `About.module.css` - About section
 - `Contact.module.css` - Contact links
 - `PayMe.module.css` - Payment QR code section

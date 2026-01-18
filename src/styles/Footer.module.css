@@ -1,3 +1,27 @@
+.scrollIndicator {
+  display: none;
+  text-align: center;
+  padding: 15px 0;
+  color: #a5f3fc;
+}
+
+.scrollArrow {
+  font-size: 1.5em;
+  animation: bounce 2s infinite;
+  display: inline-block;
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+    opacity: 0.6;
+  }
+  50% {
+    transform: translateY(8px);
+    opacity: 1;
+  }
+}
+
 .footer {
   padding: 30px 20px;
   background: linear-gradient(135deg, rgba(15, 23, 42, 0.9) 0%, rgba(30, 27, 75, 0.9) 100%);
@@ -15,6 +39,10 @@
 }
 
 @media (max-width: 768px) {
+  .scrollIndicator {
+    display: block;
+  }
+
   .footer {
     padding: 20px 15px;
   }

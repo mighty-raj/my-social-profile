@@ -1,5 +1,5 @@
 :root {
-  font-family: 'Segoe UI', Trebuchet MS, sans-serif;
+  font-family: 'Poppins', 'Segoe UI', Trebuchet MS, sans-serif;
   line-height: 1.6;
   font-weight: 400;
 
@@ -31,6 +31,7 @@ body {
 h1, h2, h3 {
   margin: 0;
   color: #f0f9ff;
+  font-family: 'Playfair Display', serif;
 }
 
 h1 {

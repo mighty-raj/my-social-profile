@@ -1,13 +1,14 @@
 {
   "name": "Raja Mahesh Aravapalli",
-  "tagline": "Architecting Intelligent Systems @ Microsoft | AI & Data at Scale",
-  "profilePictureUrl": "https://1drv.ms/i/c/71ca469591e40384/IQCEA-SRlUbKIIBxaD4AAAAAAWWGKdGiZWUgIOaZ0RGmjd8?e=TjYPLc",
+  "tagline": "Architecting Intelligent Systems @ Microsoft",
+  "subtitle": "AI, Data & Cloud at Scale!",
+  "profilePictureUrl": "/images/profile.jpg",
   "about": {
     "title": "About Me",
     "bio": [
-      "I architect intelligent systems that solve real-world problems at scale. As a Senior Software Engineer and Tech Lead at Microsoft, I design and build AI-powered solutions that process massive data volumes, drive business impact, and push the boundaries of what's possible.",
-      "My expertise spans distributed systems, machine learning infrastructure, data engineering pipelines, and cloud-native architecture. I'm passionate about transforming complex AI/Data challenges into elegant, scalable solutions while mentoring teams to deliver technical excellence.",
-      "I believe in building systems that are intelligent, resilient, and maintainable. Advocate for engineering rigor, collaborative problem-solving, and continuous innovation. Committed to driving impactful technical decisions and sharing knowledge that shapes the next generation of engineers."
+      "At Microsoft, I architect and engineer intelligent systems that solve complex real-world problems at scale. I design and deploy AI-powered solutions that leverage distributed computing to process massive data volumes, maximize business impact, and pioneer the boundaries of what's technically possible.",
+      "My technical expertise encompasses distributed systems architecture, machine learning infrastructure optimization, data engineering pipelines, microservices design, cloud-native architecture, and DevOps practices. I'm passionate about transforming intricate AI/ML and data challenges into elegant, performant, and scalable solutions while mentoring engineering teams to deliver world-class technical excellence.",
+      "I champion systems that are intelligent, resilient, and maintainable through rigorous engineering practices. Advocate for architectural excellence, collaborative technical problem-solving, and continuous innovation. Committed to driving impactful technical decisions and fostering a culture of knowledge-sharing that shapes the next generation of engineers."
     ]
   },
   "contacts": {
@@ -16,26 +17,27 @@
       {
         "id": "email",
         "label": "Email",
-        "icon": "📧",
         "link": "mailto:RajaMahesh.Aravapalli@outlook.com"
       },
       {
         "id": "linkedin",
         "label": "LinkedIn",
-        "icon": "💼",
         "link": "https://www.linkedin.com/in/raja-mahesh-aravapalli/"
       },
       {
         "id": "twitter",
-        "label": "Twitter",
-        "icon": "𝕏",
-        "link": "https://twitter.com/your-handle"
+        "label": "X",
+        "link": "https://x.com/RajaMahesh_A"
       },
       {
         "id": "instagram",
         "label": "Instagram",
-        "icon": "📸",
-        "link": "https://instagram.com/your-handle"
+        "link": "https://instagram.com/mighty.9999"
+      },
+      {
+        "id": "github",
+        "label": "GitHub",
+        "link": "https://github.com/mighty-raj"
       }
     ]
   },

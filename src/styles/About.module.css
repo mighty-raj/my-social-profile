@@ -58,11 +58,13 @@
   }
 
   .title {
-    font-size: 1.7em;
+    font-size: 1.9em;
+    margin-bottom: 20px;
   }
 
   .bio {
-    font-size: 0.95em;
-    line-height: 1.7;
+    font-size: 1.05em;
+    line-height: 1.8;
+    margin-bottom: 20px;
   }
 }
